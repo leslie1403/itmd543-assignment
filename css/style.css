@@ -15,12 +15,11 @@ body {
 header {
   background-color: #1db954;
   color: #fff;
-  border-style: dotted;
-  border-width: 10px;
+  border-style: groove;
+  border-width: 2cap;
   border-color: #333;
   text-align: center;
   padding: 2rem 1rem;
-  font-style: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
