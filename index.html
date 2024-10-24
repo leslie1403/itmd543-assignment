@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music Playlist Builder</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Playlist Builder</h1>
+  </header>
+
+  <main>
+    <section id="selection-section">
+      <h2>Customize Your Playlist</h2>
+      <div class="selection-container">
+        <div class="selection-box">
+          <h3>Select Genres</h3>
+          <p>Select each of the generes you'd like to have in your playlist</p>
+          <div id="genre-buttons" class="button-group">
+          </div>
+        </div>
+        <div class="selection-box">
+          <h3>Select Moods</h3>
+          <p>Select each of the moods you'd like to have in your playlist</p>
+          <div id="mood-buttons" class="button-group">
+          </div>
+        </div>
+      </div>
+      <button type="button" id="generate-button">Generate Playlist</button>
+    </section>
+
+    <section id="playlist-section">
+      <h2>Your Playlist</h2>
+      <div id="playlist-container">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by: Leslie Esquivel</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
