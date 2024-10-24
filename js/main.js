@@ -21,7 +21,7 @@ const songs = [
     artist: 'Adele',
     genres: ['Pop', 'Soul'],
     moods: ['Sad', 'Reflective'],
-    image: 'media//someone-like-you.jpg'
+    image: 'media//lover.jpg'
   },
   {
     id: 4,
