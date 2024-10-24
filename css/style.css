@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+  background-color: #1db954;
+  color: #fff;
+  border-style: dotted;
+  border-width: 10px;
+  border-color: #333;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-style: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+main {
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+#selection-section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.selection-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.selection-box {
+  flex: 1 1 50px;
+}
+
+.selection-box p {
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.button-group button {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-group button.active {
+  background-color: #1db954;
+  color: #fff;
+}
+
+.button-group button:hover {
+  background-color: #c6c6c6;
+}
+
+#generate-button {
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#generate-button:hover {
+  background-color: greenyellow;
+  font-size: large;
+}
+
+#playlist-section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+#playlist-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.song-card {
+  background-color: #f9fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.song-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
+
+.song-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.song-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer {
+  background-color: #1db954;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .selection-container {
+    flex-direction: column;
+  }
+}
